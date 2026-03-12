@@ -422,7 +422,7 @@ class Config:
         
         # 如果没有配置，使用默认的示例股票
         if not stock_list:
-            stock_list = ['600519', '000001', '300750']
+            stock_list = ['131.2330', '131.2317', '131.0056', '131.3231', '131.2382', '131.6669', '131.3653', '131.2345']
         
         # === LiteLLM multi-key parsing ===
         # GEMINI_API_KEYS (comma-separated) > GEMINI_API_KEY (single)
